@@ -1,0 +1,106 @@
+#revechat #edit-choose-form h3,
+#revechat #revechat_already_have h3,
+#revechat #revechat_new_account h3{
+    color: coral;
+}
+#revechat ul#revechat_choose_form{}
+#revechat ul#revechat_choose_form li{
+    list-style: none;
+    display: block;
+}
+#revechat ul#revechat_choose_form li label{
+    display: inline-block;
+}
+#revechat .revechat_email_error{
+    color: red;
+}
+#revechat .ajax_message {
+    display: none;
+    background: url(ajax_loader.gif) no-repeat 24px 51%;
+    padding: 0;
+    margin-top: 1em;
+}
+#revechat .ajax_message.wait,
+#revechat .ajax_message.message
+{
+    display: block;
+    font-size: 1.2em;
+    padding: 20px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,.2);
+}
+#revechat .ajax_message.wait {
+    text-indent: 28px;
+    background-color: #fff;
+}
+#revechat .ajax_message.message {
+    background-image: none;
+    text-indent: 0px;
+}
+
+#revechat .ajax_message.message.alert{
+    background-color: #f2dede;
+    border-color: #ebccd1;
+    color: #a94442;
+    padding: 20px;
+}
+#revechat .revechat_success_message{
+    background: #ffffff;
+    padding: 50px;
+    height: auto;
+    font-size: 1.5em;
+    border-bottom: 5px solid #F16915;
+    -webkit-box-shadow: 0px 0px 6px rgba(0,0,0,.3);
+    -moz-box-shadow: 0px 0px 6px rgba(0,0,0,.3);
+    box-shadow: 0px 0px 6px rgba(0,0,0,.3);
+}
+#revechat .revechat_success_message h3{
+    font-weight: bold;
+    border-bottom: 1px solid #B1B4B9;
+    padding-bottom: 20px;
+    line-height: 2em;
+}
+#revechat .messages.revechat_success{
+    background-color: #dff0d8;
+    border: 1px solid #bee99a;
+    color: #3c763d;
+    padding: 20px;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+#revechat .form-submit{
+    background: #FF5800 none repeat scroll 0 0;
+    border-color: #bd4302 #ab3c02 #ab3c02;
+    -webkit-box-shadow: 0 1px 0 #ab3c02;
+    box-shadow: 0 1px 0 #ab3c02;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0 -1px 1px #ab3c02,1px 0 1px #ab3c02,0 1px 1px #ab3c02,-1px 0 1px #ab3c02;
+}
+
+#revechat #revechat-admin-settings-form {
+    padding: 18px;
+}
+#revechat fieldset {
+    border: 1px solid #c0c0c0;
+    margin-top: 20px;
+}
+#revechat #revechat_already_have > h3 {
+    margin-top: 19px;
+}
+#revechat ul#revechat_choose_form li {
+    display: block;
+    list-style: outside none none;
+    padding-left: 20px;
+}
+#revechat .form-wrapper {
+    padding: 16px;
+    padding-bottom: 31px;
+}
+#revechat .form-item > label {
+    display: table;
+    margin-bottom: 11px;
+    margin-top: 20px;
+}
+#revechat input.form-submit{
+    cursor: pointer;
+}
